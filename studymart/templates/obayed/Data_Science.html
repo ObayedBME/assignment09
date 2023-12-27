@@ -1,0 +1,11 @@
+<h4>Welcome To Data Science</h4>
+
+{{fcourse}} <br>
+<ol>
+    {% for course in fcourse %}
+    <li>{{course}}</li>
+    {% endfor %}
+</ol>
+{% for course in fcourse %}
+{{ forloop.revcounter }}{{course}}<br>
+{% endfor %}

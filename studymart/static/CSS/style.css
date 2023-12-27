@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+h1 {
+    color: brown;
+}
+
+* {
+    color: coral;
+}
+
+.cselector {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#idselector {
+    color: blue;
+}
+
+h5,
+strong,
+small {
+    font-size: 70px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.textproperty {
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    /*text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-line: line-through;*/
+    text-indent: 40px;
+    text-shadow: 3px 5px 4px rgba(236, 22, 22, 0.5);
+    text-transform: uppercase;
+}
+
+.margin {
+    height: 500px;
+    width: 500px;
+    border: 5px solid blue;
+    margin: 100px 50px 30px 30px;
+}
+
+.padding {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+}
